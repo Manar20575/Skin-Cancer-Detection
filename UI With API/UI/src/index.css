@@ -1,0 +1,154 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-color: #953e64;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main {
+    width: 450px;
+    height: 690px;
+    background-color: white;
+    border-radius: 25px 25px 0 0;
+    -webkit-border-radius: 25px 25px 0 0;
+    -moz-border-radius: 25px 25px 0 0;
+    -ms-border-radius: 25px 25px 0 0;
+    -o-border-radius: 25px 25px 0 0;
+    border-radius: 25px;
+}
+
+#hero {
+    width: 450px;
+    height: 220;
+    border-radius: 25px 25px 0 0;
+    -webkit-border-radius: 25px 25px 0 0;
+    -moz-border-radius: 25px 25px 0 0;
+    -ms-border-radius: 25px 25px 0 0;
+    -o-border-radius: 25px 25px 0 0;
+}
+
+#icon {
+    width: 48;
+    height: 48;
+}
+
+a {
+    text-align: right;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+
+h2 {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 100;
+    font-size: large;
+}
+
+.annual {
+    flex-wrap: wrap;
+    background: hsl(225, 100%, 98%);
+    margin-left: 56px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    margin-top: 24px;
+    width: 320px;
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+.proceed {
+    text-align: center;
+    background-color: #411f3a;
+    width: 320px;
+    height: 56px;
+    border-radius: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+    box-shadow: 2px 5px 35px 0px #953e64;
+    cursor: pointer;
+}
+
+#pr {
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+#ca {
+    color: rgba(0, 0, 0, 0.493);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 24px;
+}
+
+#ch p {
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+.annual span {
+    font-weight: bold;
+}
+
+.annual p {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+}
+
+th {
+    text-align: start;
+}
+
+td {
+    text-align: end;
+}
+
+input {
+    color: #fff !important;
+}
